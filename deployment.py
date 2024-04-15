@@ -4,15 +4,8 @@ import pandas as pd
 import pickle
 import os
 
-# Get the current directory of the script
-current_dir = os.path.dirname(os.path.realpath(__file__))
-
-# Navigate to the parent directory (P), then to the data subfolder, and finally to kaggle_diabetes.csv
-file_path = os.path.join(os.path.dirname(current_dir), 'data', 'kaggle_diabetes.csv')
-
 # Read the CSV file into a DataFrame
-df = pd.read_csv(file_path)
-
+df = pd.read_csv('kaggle_diabetes.csv')
 
 # Renaming DiabetesPedigreeFunction as DPF
 df = df.rename(columns={'DiabetesPedigreeFunction':'DPF'})
