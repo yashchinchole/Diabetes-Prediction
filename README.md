@@ -21,8 +21,8 @@ Diabetes is an increasingly growing health issue due to our inactive lifestyle. 
 
 ## Screenshots
 
-![Home Page](./app/static/home.png)
-![Output](./app/static/output.png)
+![Home Page](./static/home.png)
+![Output](./static/output.png)
 
 ### Demo
 
