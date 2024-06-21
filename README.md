@@ -1,5 +1,7 @@
 ## Diabetes Prediction using Machine Learning.
 
+![](https://visitor-badge.laobi.icu/badge?page_id=yashchinchole/Diabetes-Prediction)
+
 ### Table of Content
 
 - [Overview](#overview)
